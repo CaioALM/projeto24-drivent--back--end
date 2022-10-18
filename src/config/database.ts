@@ -6,5 +6,5 @@ export function connectDb(): void {
 }
 
 export async function disconnectDB(): Promise<void> {
-  await prisma?.$disconnect();
+  await prisma.$disconnect();
 }
